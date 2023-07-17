@@ -2,5 +2,115 @@
   box-sizing: border-box;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+body {
+  text-align: center;
+  font-family: 'Red Hat Display';
+  font-size: 18px;
+  margin: 0;
+  background: hsl(225deg, 100%, 94%) url("../images/pattern-background-mobile.svg") no-repeat left top/contain;
+  background-image: url(./images/pattern-background-desktop.svg);
+  color: hsl(224deg, 23%, 55%);
+}
+
+main {
+  display: grid;
+  place-items: center;
+  height: 97vh;
+}
+
+#main-div {
+  max-width: 320px;
+  background-color: white;
+  height: auto;
+  border-radius: 10px;
+  padding-bottom: 0.25rem;
+}
+
+#main-svg {
+  width: 100%;
+  vertical-align: top;
+  border-radius: 10px 10px 0 0;
+}
+
+h1 {
+  font-size: 1.25rem;
+  margin-top: 1.75rem;
+  color: hsl(223deg, 47%, 23%);
+}
+
+#description {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 0 2.25rem;
+}
+
+#flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1.25rem;
+ 
+}
+
+#span-1 {
+  font-size: 0.8rem;
+  color: hsl(223deg, 47%, 23%);
+  font-weight: 700;
+}
+
+#span-2 {
+  font-size: 0.75rem;
+  font-weight: 900;
+}
+
+#change {
+  flex-basis: 40%;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: hsl(245deg, 75%, 52%);
+
+}
+
+#music-icon {
+  margin: 0 0.75rem;
+}
+
+
+#payment {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border: none;
+  font-family: 'Red Hat Display';
+  font-size: 0.75rem;
+  font-weight: 700; 
+  width: 80%;
+  padding: 0.65rem;
+  border-radius: 8px;
+  margin-top: 1.25rem;
+  box-shadow: 0 0.875rem 1.75rem rgba(31, 47, 86, 0.13), 0 0.625rem 0.625rem rgba(31, 47, 86, 0.18);
+}
+
+#cancel {
+  display: block;
+  margin: 1.75rem auto;
+  border: none;
+  background-color: transparent;
+  color: hsl(224deg, 23%, 55%);
+  font-weight: 900;
+  font-family: 'Red Hat Display';
+  font-size: 0.75rem;
+
+}
+
+footer {
+  height: 2vh;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: hsl(228, 45%, 44%)
+}
+
+footer a {
+  color: hsl(245deg, 75%, 52%);
+}
+
